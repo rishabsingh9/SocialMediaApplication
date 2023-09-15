@@ -1,0 +1,13 @@
+.post-box {
+    border: 1px solid black;
+    padding: 10px; /* Optional: Add padding to create space between content and border */
+    margin-bottom: 10px; /* Optional: Add margin to create space between boxes */
+    box-sizing: border-box; /* Include padding and border in the box dimensions */
+    background-color: rgba(0, 0, 0, 0.351);
+}
+
+.post-box img {
+    display: block;
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+}
